@@ -1,7 +1,7 @@
 ---
 title: 'Transportation Management System: definition & benefits?'
 lang: en
-author: 'Mélanie Applincourt'
+author: Mélanie Applincourt
 ref: blog
 header_image: true
 header_image_file: tms.png

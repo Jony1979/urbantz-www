@@ -1,5 +1,5 @@
 ---
-title: 'Transparent pricing'
+title: Transparent pricing
 lang: en
 parent: features
 ---

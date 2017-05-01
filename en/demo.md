@@ -1,5 +1,5 @@
 ---
-title: 'Book my demo'
+title: Book my demo
 lang: en
 ref: demo
 body_classes: dark

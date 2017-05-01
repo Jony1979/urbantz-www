@@ -1,5 +1,5 @@
 ---
-title: 'Amélioration significative des performances'
+title: Amélioration significative des performances
 lang: fr
 ---
 

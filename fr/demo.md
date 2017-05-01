@@ -1,5 +1,5 @@
 ---
-title: 'Demander une Démo'
+title: Demander une Démo
 body_classes: dark
 lang: fr
 ref: demo

@@ -1,9 +1,10 @@
 ---
+title: The best software for your delivery operations
 layout: default
-title: 'The best software for your delivery operations'
 body_classes: home
 demo: true
 ---
+
 <script>
 
 var lang;

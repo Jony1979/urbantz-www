@@ -1,7 +1,7 @@
 ---
-title: '2 Steps for Your Delivery Strategy During the Holiday Season'
+title: 2 Steps for Your Delivery Strategy During the Holiday Season
 lang: en
-author: 'Mélanie Applincourt'
+author: Mélanie Applincourt
 ref: blog
 header_image: true
 header_image_file: blog-image-1.png

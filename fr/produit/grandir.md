@@ -1,5 +1,5 @@
 ---
-title: 'Croissance du business'
+title: Croissance du business
 lang: fr
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'Significant performance gains'
+title: Significant performance gains
 lang: en
 parent: features
 ---

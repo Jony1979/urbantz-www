@@ -4,6 +4,7 @@ lang: fr
 ref: features
 nav: true
 ---
+
 <div layout="row" layout-align="center center">
     <md-button href="grandir.html">Grandir</md-button>
     <md-button href="adapter.html">S'adapter</md-button>

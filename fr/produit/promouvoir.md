@@ -1,5 +1,5 @@
 ---
-title: 'Marque blanche à 100%'
+title: Marque blanche à 100%
 lang: fr
 ---
 
