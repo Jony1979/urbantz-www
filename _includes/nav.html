@@ -1,0 +1,66 @@
+<nav layout="row" hide-sm hide-xs class="menu">
+    <a href="/{{page.lang}}/"><img src="/img/ant.png"></a>
+    <!--
+    {% for p in site.pages %}
+        {% if p.nav == true and p.lang == page.lang %}
+            <a href="{{ p.url }}" class="{% if p.url == page.url %}active{% endif %}">{{ p.title }}</a>
+        {% endif %}
+    {% endfor %}
+    -->
+    {% for n in site.nav %}
+        {% for p in site.pages %}
+        {% if p.ref == n[1] and p.nav == true and p.lang == page.lang %}
+            <a href="{{ p.url }}" class="{% if p.url == page.url %}active{% endif %}">{{ p.title }}</a>
+        {% endif %}
+        {% endfor %}
+    {% endfor %}
+    <md-menu>
+        <a ng-click="$mdOpenMenu($event)"><i class="ion-chevron-down"></i></a>
+        <md-menu-content>
+        {% for n in site.nav %}
+            {% for p in site.pages %}
+                {% if p.ref == n[1] and p.menu == true and p.lang == page.lang %}
+                <md-menu-item><a class="md-button" href="{{p.url }}">{{ p.title }}</a></md-menu-item>
+                {% endif %}
+            {% endfor %} 
+        {% endfor %} 
+        </md-menu-content>
+    </md-menu>
+    
+    <span flex></span>
+    <a href="tel:{{site.phone}}">
+        <i class="ion-ios-telephone" style="font-size: 24pt;vertical-align: middle;"></i> 
+        {{ site.phone }} 
+    </a>
+    <md-select ng-model="view.language" ng-init="view.language = '{{page.lang}}'" placeholder="Language" style="float:right">
+        {% for language in site.languages %}
+            <md-option value="{{language.key}}">{{ language.value }}</md-option>
+        {% endfor %}
+     </md-select>
+     
+     <a href="/{{ page.lang }}/demo" class="demo">Demo</a>
+</nav>
+
+<nav class="menu-sm" layout="row">
+    <a ng-click="view.openLeftMenu()"><i class="ion-navicon" style="font-size:32pt"></i></a>
+    <span flex></span>
+    <a href="/"><img src="/img/ant.png" style="height: 40px"></a>
+</nav>
+ 
+<md-sidenav md-component-id="left" layout="column" class="menu-sidenav">
+    <nav layout="column" flex="grow" layout-align="start stretch">
+        <a href="/"><img src="/img/ant.png"></a>
+
+        {% for page in site.pages %}
+           <a href="{{ page.url }}">{{ page.menu }}</a>
+        {% endfor %}
+
+        <a ng-click="showInMenu = !showInMenu" ng-bind="showInMenu ? '- less': '+ more'"></a>
+        
+        <md-select ng-model="view.language" placeholder="Language" ng-model="view.language">
+            {% for key in site.languages %}
+                <md-option value="{{ lang_url ~ uri.params }}" {{ active_class }}>{{ native_name(key)|capitalize }}</md-option>
+            {% endfor %}
+        </md-select>
+    </nav>
+</md-sidenav>

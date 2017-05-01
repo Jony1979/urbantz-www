@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+    {% include head.html %}
+
+    <body ng-app="urbantz" ng-cloak ng-controller="HomeController" class="{{ page.body_classes }}">
+        {% include nav.html %}
+        {{ page.content | markdownify }}
+
+        {% include footer.html %}
+    </body>
+</html>

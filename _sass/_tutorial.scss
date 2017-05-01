@@ -1,0 +1,116 @@
+.tutorial {
+  width: 100%;
+
+  li {
+    font-size: 12pt;
+    color: #666;
+    outline: none;
+    
+    
+    * {
+        text-transform: capitalize;
+    }
+    
+    &.indented {
+	    margin-left: 30px;
+    }
+    &.md-primary {
+      color: #00BCD4 !important;
+    }
+  }
+
+  ol {
+    li {
+      cursor: pointer;
+
+      &:hover {
+        color: #00BCD4 !important;
+      }
+    }
+  }
+}
+
+.tutorial-image {
+  height: 150px;
+  width:100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.scrolled .tutorial .index {
+	height: 100vh;
+	overflow: auto;
+	top: 0px;
+}
+
+.tutorial {
+  max-width: none;
+  padding: 0px;
+  
+  h2 {
+    a {
+      text-decoration: none;
+      font-weight: 100;
+    }
+  }
+
+  .table-index {
+    background: #f5f5f5;
+    margin-right: 30px;
+    padding-right: 30px;
+    min-width: 30vw;
+    max-width: 30vw;
+  }
+  
+  .index {
+    position: fixed;
+    width: 30vw;
+  }
+  
+	.group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+	  max-width: 1200px;
+    border-bottom: 1px solid #ccc;
+    
+    blockquote {
+      padding: 0px;
+      border: 0;
+      margin: 0;
+    }
+    > * {
+      width: 50%;
+    }
+
+    > ul {
+      margin: 0;
+      padding: 0;
+      padding-right: 10px;
+      
+      > li {
+        line-height: 1.6;
+        margin: 0px 0px 30px 0px;
+        
+        > ul {
+          padding-left: 30px;
+        
+          > li {
+            font-size: 10pt !important;
+            color: #666 !important;
+          }
+        }
+      }
+    }
+    > p {
+      margin: 0px;
+
+      img {
+        box-shadow: 2px 2px 15px #aaa;
+        width: 100%;
+      }
+    }
+  }
+}

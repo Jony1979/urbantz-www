@@ -1,0 +1,23 @@
+.jobs-content-list {
+	> * {
+        max-width: 800px;
+        margin: auto;
+    }
+    
+    h2 {
+        font-size: 12pt;
+    }
+}
+
+.apply-job {
+     @media screen and (min-width: 960px) {
+         position: absolute !important;
+     }
+}
+
+.jobs-menu-list a {
+	font-size: 22pt;
+	font-weight: 300;
+	text-decoration: none;
+	padding: 20px;
+}

@@ -1,0 +1,79 @@
+div.app-features {
+    &.overview {
+        h1, p {
+            display: none;
+        }
+    }
+    padding: 20px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .some-features {
+        @media screen and (max-width: 480px) {
+            margin: 0px;
+        }
+    }
+
+    .info-block {
+        margin-bottom: 30px;
+        width: 100%;
+
+        div.icon {
+            font-family: icomoon;
+            font-size: 48pt;
+            color: #333;
+            min-width: 64pt;
+            text-align: center;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 12pt;
+            color: #333;
+            line-height: 1.6;
+            letter-spacing: 1px;
+            
+            @media screen and (min-width: 480px) {
+                max-width: 40vw;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            margin: 0px;
+        }
+    }
+
+    h1 {
+        display: block;
+        padding: 30px 0px;
+        font-size: 24pt;
+        text-align: center;
+
+        @media screen and (max-width: 600px) {
+            margin: 0px;
+        }
+    }
+
+    h2 {
+        text-align: left;
+        padding: 0px;
+        margin: 0px;
+        font-variant: small-caps;
+        font-size: 16pt;
+    }
+
+    span[class^="icon-ICO-"]:before {
+        font-size: 48pt;
+        margin: 20px;
+        display: inline-block;
+        text-align: center;
+        width: 100px;
+        color: $positive;
+        
+
+        @media screen and (max-width: 480px) {
+            width: 100%;
+            margin: 0px;
+        }
+    }
+}

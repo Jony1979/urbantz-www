@@ -1,0 +1,88 @@
+md-switch span {
+	font-weight: 300;
+	color: #666;
+	text-transform: uppercase;
+}
+
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
+    background: white;
+    margin: 10px 10px;
+
+    @media screen and (max-width: 600px) {
+        margin: 10px 0px;
+        width: 100%;
+    }
+}
+
+.status-page {
+    > div {
+        max-width: 100vw;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+.status-board {
+    columns: 2;
+
+    > span {
+        color: #666;
+        padding: 10px 0px;
+        font-size: 14pt;
+        margin: 3px;
+        display: block;
+        
+
+        > span {
+            display: block;
+            text-align: center;
+            margin: 5px;
+            font-weight: 300;
+	        padding: 5px 0px;
+        }
+        
+        i {
+            font-size: 32pt;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+            background: #8bc34a;
+            color: white;
+            text-align: center;
+            border-radius: 100%;
+        }
+        &.alert i {
+            background: #ff5722 !important;
+        }
+
+        &.amber i {
+            background: #FF9800 !important;
+        }
+    }
+}
+
+table.status-table {
+    border-collapse: collapse;
+    
+    tbody td, thead th {
+        border: 1px solid #eee;
+        padding: 15px 15px;
+        font-weight: 300;
+    }
+
+    tbody tr {
+        color: #666;
+
+        &.OK td:last-child {
+            color: #8bc34a;
+        }
+        &.ALARM td:last-child {
+            color: #ff5722   
+        }
+    }
+}

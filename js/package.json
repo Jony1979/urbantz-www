@@ -1,0 +1,17 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^6.7.0",
+    "ng-annotate-loader": "^0.2.0",
+    "webpack": "^1.14.0",
+    "webpack-traceur-loader": "^0.3.0"
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<svg width="960" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(480,300)">
+        <text text-anchor="middle" transform="translate(156,145)" style="font-size: 100px; font-family: Roboto; fill: rgb(255, 255, 255);">Parcel</text>
+        <text text-anchor="middle" transform="translate(-85,-20)" style="font-size: 100px; font-family: Roboto; fill: rgb(255, 255, 255);">Mile</text>
+        <text text-anchor="middle" transform="translate(-25,-98)" style="font-size: 65px; font-family: Roboto; fill: rgb(255, 255, 255);">Delivery</text>
+        <text text-anchor="middle" transform="translate(-18,45)" style="font-size: 100px; font-family: Roboto; fill: rgb(255, 255, 255);">Logistics</text>
+        <text text-anchor="middle" transform="translate(-139,69)" style="font-size: 25px; font-family: Roboto; fill: rgb(255, 255, 255);">Cloud</text>
+        <text text-anchor="middle" transform="translate(-226,123)" style="font-size: 25px; font-family: Roboto; fill: rgb(255, 255, 255);">SAAS</text>
+        <text text-anchor="middle" transform="translate(-12,79)" style="font-size: 25px; font-family: Roboto; fill: rgb(255, 255, 255);">Task</text>
+        <text text-anchor="middle" transform="translate(184,87)" style="font-size: 25px; font-family: Roboto; fill: rgb(255, 255, 255);">Dispatch</text>
+        <text text-anchor="middle" transform="translate(-14,121)" style="font-size: 25px; font-family: Roboto; fill: rgb(255, 255, 255);">Driver</text>
+        <text text-anchor="middle" transform="translate(-211,-103)" style="font-size: 25px; font-family: Roboto; fill: rgb(255, 255, 255);">Marketplace</text>
+        <text text-anchor="middle" transform="translate(204,-97)" style="font-size: 25px; font-family: Roboto; fill: rgb(255, 255, 255);">First</text>
+        <text text-anchor="middle" transform="translate(-220,68)" style="font-size: 25px; font-family: Roboto; fill: rgb(255, 255, 255);">Pickup</text>
+        <text text-anchor="middle" transform="translate(154,64)" style="font-size: 25px; font-family: Roboto; fill: rgb(255, 255, 255);">Last</text>
+        <text text-anchor="middle" transform="translate(39,-25)" style="font-size: 10px; font-family: Roboto; fill: rgb(255, 255, 255);">Green</text>
+        <text text-anchor="middle" transform="translate(-12,-139)" style="font-size: 10px; font-family: Roboto; fill: rgb(255, 255, 255);">Ecology</text>
+        <text text-anchor="middle" transform="translate(51,135)" style="font-size: 10px; font-family: Roboto; fill: rgb(255, 255, 255);">Urban</text>
+        <text text-anchor="middle" transform="translate(-83,24)" style="font-size: 10px; font-family: Roboto; fill: rgb(255, 255, 255);">Ant</text>
+        <text text-anchor="middle" transform="translate(-138,91)" style="font-size: 25px; font-family: Roboto; fill: rgb(255, 255, 255);">Servicing</text>
+    </g>
+</svg>

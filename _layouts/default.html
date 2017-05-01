@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+    {% include head.html %}
+    <body ng-app="urbantz" ng-cloak ng-controller="HomeController" class="{{ page.body_classes }}">
+        <div class="banner">{% include nav.html %}</div>
+        
+        <article>
+            {% if page.title %}
+            <h1 class="animated slideInUp">{{ page.title }}</h1>
+            {% endif %}
+            
+            <div class="animated fadeIn">{{ page.content | markdownify }}</div>
+        </article>
+
+        {% include footer.html %}
+    </body>
+</html>

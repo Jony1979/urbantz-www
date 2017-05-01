@@ -1,0 +1,26 @@
+<footer>
+    <div layout="row" layout-xs="column" flex-xs="100" layout-align="center start" layout-padding>
+        <div layout="column" class="contact-links">
+            <a href="tel:+33176310369"><img src="/img/phone.png"> {{site.phone}}</a>
+            <a href="http://maps.google.com?q={{site.address}}"><img src="/img/place.png"> {{site.address}}</a>
+            <a href="mailto:{{site.email}}"><img src="/img/mail.png"> {{site.email}}</a>
+        </div>
+        
+        <div flex-xs="100" layout="column" hide-xs class="footer-links" categories>
+        {% for p in site.pages %}
+            {% if p.footer and p.lang == page.lang %}
+                <a href="{{ p.url }}">{{ p.title }}</a>
+            {% endif %}
+        {% endfor %}
+        </div>
+
+        <div flex-xs="100" layout="column" class="social">
+            <a href="https://www.facebook.com/urbantz" target="_blank"><i class="ion-social-facebook-outline"></i> Facebook</a>
+            <a href="https://www.instagram.com/urbantz.belgium/" target="_blank"><i class="ion-social-instagram-outline"></i> Instagram</a>
+            <a href="https://www.twitter.com/urbantz" target="_blank"><i class="ion-social-twitter-outline"></i> Twitter</a>
+            <a href="https://www.linkedin.com/company/urbantz" target="_blank"><i class="ion-social-linkedin-outline"></i> LinkedIn</a>
+        </div>
+    </div>
+
+    <p align="center">{{site.copyright}}</p>
+</footer>

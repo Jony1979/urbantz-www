@@ -1,0 +1,37 @@
+table.pricing-table {
+	width: 100%;
+	border-collapse: collapse;
+    
+    th {
+        background: #f5f5f5;
+    }
+
+    th, td {
+        padding: 10px 10px;
+        border: 1px solid #ccc;
+        font-weight: 300;
+        font-size: 14pt;
+
+        i {
+            font-size: 24pt;
+            margin: 0px 6px;
+        }
+    }
+    
+    tr {
+        cursor: pointer;
+        outline: none;
+        
+        &:hover {
+            background: #f5f5f5;
+        }
+        &.active {
+            background: $positive;
+            color: white;
+            
+            td {
+                border: 10px solid #00BCD4;
+            }
+        }
+    }
+}
