@@ -1,9 +1,10 @@
 ---
-title: 'How TRANSPORT DEZOTHEZ increased his drivers’ daily deliveries from 140 to 210 [Case Study #2]'
+title: 'How TRANSPORT DEZOTHEZ increased his drivers’ daily deliveries from 140 to
+  210 [Case Study #2]'
+date: 2017-03-02 14:00:00 Z
 lang: en
 ref: blog
 author: Mélanie Applincourt
-date: 2017-03-02 14:00:00 +/-0
 header_image: true
 header_image_file: dezothez.png
 header_image_width: 300
