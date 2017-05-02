@@ -3,8 +3,9 @@ title: API
 ref: api
 lang: en
 menu: true
+footer: true
+redirect: http://docs.urbantz.com
 ---
+Our APIs allow for easy integration of senders or other third party systems.
 
-Nos APIs facilitent l'intégration des expéditeurs ou autres sytèmes tiers.
-
-Pour transmettre de nouvelles tâches en tant qu'expéditeur, visitez nos <a href="http://docs.urbantz.com" target="_blank">Annonces API</a>
+<a href="http://docs.urbantz.com" target="_blank">Click here to view the documentation</a>

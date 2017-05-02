@@ -5,7 +5,6 @@ lang: en
 demo: true
 body_classes: home
 ---
-
 <div class="home">
     <slide class="cover" vh-fix>
         <video poster="/img/video-min.png" playsinline autoplay on-video-ended="ended=true" ng-class="{ended: ended}">

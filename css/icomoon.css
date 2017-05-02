@@ -23,8 +23,10 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display:none;
+}
 
-    
+.icon {
+    display: none;
 }
 
 .icon-ICO-First_last_mile:before {

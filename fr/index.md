@@ -1,7 +1,6 @@
 ---
 title: Accueil
 layout: home
-ref: home
 lang: fr
 demo: true
 body_classes: home

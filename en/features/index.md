@@ -1,21 +1,21 @@
 ---
 title: Product
+hidetitle: true
 ref: features
 lang: en
 nav: true
 ---
 
-<div layout="row" layout-align="center center">
-    <md-button href="grow-the-business.html">Grow</md-button>
-    <md-button href="customizable-process.html">Adapt</md-button>
-    <md-button href="significant-performance-gains.html">Improve</md-button>
-    <md-button href="white-label.html">Promote your branding</md-button>
-    <md-button href="pricing.html">Simple pricing</md-button>
-</div>
+<md-nav-bar md-selected-nav-item="currentNavItem" ng-init="currentNavItem='product'" layout="row" layout-align="center center">
+    <md-nav-item md-nav-click="gogo" name="product">Product</md-nav-item>
+    <md-nav-item md-nav-href="grow-the-business.html">Grow</md-nav-item>
+    <md-nav-item md-nav-href="customizable-process.html">Adapt</md-nav-item>
+    <md-nav-item md-nav-href="significant-performance-gains.html">Improve</md-nav-item>
+    <md-nav-item md-nav-href="white-label.html">Promote</md-nav-item>
+    <md-nav-item md-nav-href="pricing.html">Simplify</md-nav-item>
+</md-nav-bar>
 
-<md-divider></md-divider>
-
-<h2 align="center">We provide a state of the art web management portal and mobile application</h2>
+<h1 align="center">We provide a state of the art web management portal and mobile application</h1>
 
 <md-tabs md-dynamic-height md-center-tabs md-border-bottom>
     <md-tab label="Web">
@@ -43,22 +43,7 @@ nav: true
                             <p>You can track the delivery operations in real time. It is very simple to monitor the activity and anticipate issues.</p>
                         </div>
                     </div>
-                    <div layout="row" layout-xs="column">
-                        <div class="icon">&#xe907;</div>
-                        <div>
-                            <h3>Smart Alerts</h3>
-                            <p>Our smart alerts inform your employees about events that could lead to a delay for the end customer. They can react and improve the service.</p>
-                        </div>
-                    </div>
-                    <div layout="row" layout-xs="column">
-                        <div class="icon">&#xe90b;</div>
-                        <div>
-                            <h3>Customer Notifications</h3>
-                            <p>We notify the end customer about the estimated time of arrival. The customer can relax as he knows exactly when the driver will arrive.</p>
-                        </div>
-                    </div>
-                </div>
-                <div layout="column" class="info-block">
+
                     <div layout="row" layout-xs="column">
                         <div class="icon">&#xe902;</div>
                         <div>
@@ -73,11 +58,21 @@ nav: true
                             <p>URBANTZ can easily integrate with other systems. Our APIs enable your customers to send parcels, retrieve round information and get real time feedback about the parcel delivery status.</p>
                         </div>
                     </div>
+                </div>
+                <div layout="column" class="info-block">
+
                     <div layout="row" layout-xs="column">
-                        <div class="icon">&#xe903;</div>
+                        <div class="icon">&#xe907;</div>
                         <div>
-                            <h3>Account and Service Management</h3>
-                            <p>URBANTZ offers the possibility to define and manage your own services. Your customer can select the services they are contracted to use and to pass corresponding orders.</p>
+                            <h3>Smart Alerts</h3>
+                            <p>Our smart alerts inform your employees about events that could lead to a delay for the end customer. They can react and improve the service.</p>
+                        </div>
+                    </div>
+                    <div layout="row" layout-xs="column">
+                        <div class="icon">&#xe90b;</div>
+                        <div>
+                            <h3>Customer Notifications</h3>
+                            <p>We notify the end customer about the estimated time of arrival. The customer can relax as he knows exactly when the driver will arrive.</p>
                         </div>
                     </div>
                     <div layout="row" layout-xs="column">
@@ -85,6 +80,14 @@ nav: true
                         <div>
                             <h3>Reporting</h3>
                             <p>Both you and your customer can see activity and quality reports. You can see an overview and drill down to a specific period in time. This allows you to have indicators on the area to improve.</p>
+                        </div>
+                    </div>
+
+                    <div layout="row" layout-xs="column">
+                        <div class="icon">&#xe903;</div>
+                        <div>
+                            <h3>Account and Service Management</h3>
+                            <p>URBANTZ offers the possibility to define and manage your own services. Your customer can select the services they are contracted to use and to pass corresponding orders.</p>
                         </div>
                     </div>
                 </div>
@@ -100,14 +103,14 @@ nav: true
                         <div class="icon">&#xe90a;</div>
                         <div>
                             <h3>Rounds Preparation</h3>
-                            <p>With URBANTZ dispatcher application preparing the rounds is quicker and easier than ever before. Just scan a parcel, URBANTZ tells (yes it actually talks!) you the corresponding round number and sequence.</p>
+                            <p>With our application, preparing the rounds is faster and easier than ever before. Just scan a parcel, URBANTZ tells you the corresponding round number and sequence - and yes it actually talks out loud! With a phone in your pocket, a small headphone and a Bluetooth scanner in hand, your performance goes through the roof!</p>
                         </div>
                     </div>
                     <div layout="row" layout-xs="column">
                         <div class="icon">&#xe901;</div>
                         <div>
                             <h3>Invitations for Gigs</h3>
-                            <p>Once deliveries are scheduled and rounds are generated, “invitations” for “missions” are sent out to the drivers who have registered and have been validated. </p>
+                            <p>Once deliveries are scheduled and rounds are generated, invitations are sent out to the drivers who are registered, have been validated and are available.</p>
                         </div>
                     </div>
                 </div>
