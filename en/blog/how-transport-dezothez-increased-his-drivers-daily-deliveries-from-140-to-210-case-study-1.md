@@ -2,6 +2,7 @@
 title: 'How TRANSPORT DEZOTHEZ increased his drivers’ daily deliveries from 140 to
   210 [Case Study #1]'
 date: 2017-03-01 14:00:00 Z
+position: 31
 lang: en
 ref: blog
 author: Mélanie Applincourt

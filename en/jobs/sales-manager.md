@@ -1,5 +1,6 @@
 ---
 title: Sales Manager
+position: 46
 ref: jobs
 lang: en
 metadata:

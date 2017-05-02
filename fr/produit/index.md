@@ -1,5 +1,6 @@
 ---
 title: Produit
+position: 27
 lang: fr
 ref: features
 nav: true

@@ -1,5 +1,6 @@
 ---
 title: Accueil
+position: 15
 layout: home
 lang: fr
 demo: true

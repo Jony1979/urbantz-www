@@ -1,5 +1,6 @@
 ---
 title: Terms and Conditions
+position: 7
 ref: terms
 lang: en
 footer: true

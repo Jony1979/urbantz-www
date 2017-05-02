@@ -1,5 +1,6 @@
 ---
 title: Tarification transparente
+position: 29
 lang: fr
 ---
 

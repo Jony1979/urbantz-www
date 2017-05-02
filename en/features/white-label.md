@@ -1,5 +1,6 @@
 ---
 title: Fully white label
+position: 24
 lang: en
 parent: features
 ---

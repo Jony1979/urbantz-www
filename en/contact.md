@@ -1,5 +1,6 @@
 ---
 title: Contact
+position: 3
 lang: en
 ref: contact
 body_classes: dark

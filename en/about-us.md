@@ -1,5 +1,6 @@
 ---
 title: About us
+position: 1
 ref: company
 lang: en
 nav: true

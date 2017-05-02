@@ -2,6 +2,7 @@
 title: 'Comment TRANSPORT DEZOTHEZ est passée de 140 à 210 livraisons par jour par
   employé  [Etude de cas #2]'
 date: 2017-03-02 14:00:00 Z
+position: 37
 lang: fr
 ref: blog
 author: Mélanie Applincourt

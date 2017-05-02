@@ -1,5 +1,6 @@
 ---
 title: Developer
+position: 39
 ref: jobs
 lang: fr
 metadata:

@@ -1,6 +1,7 @@
 ---
 title: 'Transportation Management System: definition & benefits?'
 date: 2017-02-01 14:00:00 Z
+position: 33
 lang: en
 ref: blog
 author: Mélanie Applincourt
