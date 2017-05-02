@@ -5,13 +5,14 @@
     <body ng-app="urbantz" ng-cloak ng-controller="HomeController" class="blog {{ page.body_classes }}">
         <div class="banner">{% include nav.html %}</div>
         <article>
-            {% for p in site.pages %}
+            {% assign sorted = (site.pages | sort: 'date') | reverse %}
+            {% for p in sorted %}
                 {% if p.lang == page.lang and p.ref == 'blog' %}
                 <md-card class="animated slideInUp" ng-click="view.go('{{ p.url }}')">
                     <md-card-title>
                         <md-card-title-text>
                             <span class="md-headline">{{ p.title }}</span>
-                            <span class="md-subhead">Published by {{ p.author }} on {{p.date}}</span>
+                            <span class="md-subhead" style="color: #999">Published by {{ p.author }} on {{p.date | date: "%d %b %Y"}}</span>
                         </md-card-title-text>
                     </md-card-title>
 
