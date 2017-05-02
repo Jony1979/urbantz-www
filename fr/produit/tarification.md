@@ -1,5 +1,5 @@
 ---
-title: 'Tarification transparente'
+title: Tarification transparente
 lang: fr
 ---
 

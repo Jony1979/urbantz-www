@@ -1,5 +1,5 @@
 ---
-title: 'Processus personnalisable'
+title: Processus personnalisable
 lang: fr
 ---
 

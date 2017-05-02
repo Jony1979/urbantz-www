@@ -1,5 +1,5 @@
 ---
-title: 'Grow the business'
+title: Grow the business
 lang: en
 parent: features
 ---

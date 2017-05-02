@@ -1,11 +1,12 @@
 ---
-title: 'Etat du service'
+title: Etat du service
 lang: fr
 ref: status
 body_classes: dark
 menu: true
 footer: true
 ---
+
 <div ng-controller="StatusController">
     <div ng-show="statuses.length">
         <div layout="row" layout-xs="column" layout-align="center stretch">

@@ -1,5 +1,5 @@
 ---
-title: 'Fully white label'
+title: Fully white label
 lang: en
 parent: features
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'Conditions générales'
+title: Conditions générales
 lang: fr
 footer: true
 ---

@@ -1,43 +1,52 @@
+---
 title: URBANTZ
-phone: '+33176310369'
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+phone: "+33176310369"
 email: info@urbantz.com
-address: '120 Avenue Louise, 1000 Brussels, Belgium'
-copyright: 'Copyright 2014-2017 URBANTZ S.A., All Rights Reserved'
-description: > # this means to ignore newlines until "baseurl:"
-  The best software for your delivery operations
-baseurl: "" # the subpath of your site, e.g. /blog
+address: 120 Avenue Louise, 1000 Brussels, Belgium
+copyright: Copyright 2014-2017 URBANTZ S.A., All Rights Reserved
+description: 'The best software for your delivery operations
+
+'
+baseurl: ''
 nav:
-  1: features
-  2: contact
-  3: support
-  4: download
-  5: api
-  6: status
-  7: company
-languages: 
-  - key: en
-    value: English
-  - key: fr
-    value: Français
-url: "https://www.urbantz.com" # the base hostname & protocol for your site, e.g. http://example.com
+  '1': features
+  '2': contact
+  '3': support
+  '4': download
+  '5': api
+  '6': status
+  '7': company
+languages:
+- key: en
+  value: English
+- key: fr
+  value: Français
+url: https://www.urbantz.com
 metadata:
-  description: 'URBANTZ is a logistics cloud solution for the first and last mile delivery business'
-  'og:image': 'https://urbantz.com/img/og-urbantz.png'
-  keywords: 'Last Mile,First Mile, Logistics, SAAS, Platform, Urban, Solution, App'
-  theme-color: '#223641'
+  description: URBANTZ is a logistics cloud solution for the first and last mile delivery
+    business
+  og:image: https://urbantz.com/img/og-urbantz.png
+  keywords: Last Mile,First Mile, Logistics, SAAS, Platform, Urban, Solution, App
+  theme-color: "#223641"
 twitter_username: urbantz
-github_username:  urbantz
-# Build settings
+github_username: urbantz
 markdown: kramdown
 theme: minima
 gems:
-  - jekyll-feed
+- jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default"
+- Gemfile
+- Gemfile.lock
