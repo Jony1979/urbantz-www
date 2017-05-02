@@ -42,7 +42,7 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	__webpack_require__(1);
@@ -64,10 +64,10 @@
 	    $scope.view.formSubmitted = true;
 	    $http({
 	      method: 'POST',
-	      url: 'https://nexuxw7zte.execute-api.eu-west-1.amazonaws.com/production',
+	      url: window.configuration.demourl,
 	      headers: {
 	        'Content-Type': 'application/json',
-	        'X-Api-Key': 'Jhpps7TDHj3O9ZQMz38Gx2cGQv06L51Z56fuOT1f'
+	        'X-Api-Key': window.configuration.demokey
 	      },
 	      data: answer
 	    }).then(function() {}, function() {
@@ -79,10 +79,10 @@
 	  $scope.view.submitSupportForm = function(f) {
 	    $http({
 	      method: 'POST',
-	      url: 'https://hosvq66q80.execute-api.eu-west-1.amazonaws.com/production',
+	      url: window.configuration.supporturl,
 	      headers: {
 	        'Content-Type': 'application/json',
-	        'X-Api-Key': 'Jhpps7TDHj3O9ZQMz38Gx2cGQv06L51Z56fuOT1f'
+	        'X-Api-Key': window.configuration.supportkey
 	      },
 	      data: {"helpdesk_ticket": {
 	          "description": (f.description || f.message) + ' (PHONE=' + f.phone + ')',
@@ -105,10 +105,10 @@
 	    console.log(f);
 	    $http({
 	      method: 'POST',
-	      url: 'https://a4vvb2px10.execute-api.eu-west-1.amazonaws.com/production',
+	      url: window.configuration.contacturl,
 	      headers: {
 	        'Content-Type': 'application/json',
-	        'X-Api-Key': 'Jhpps7TDHj3O9ZQMz38Gx2cGQv06L51Z56fuOT1f'
+	        'X-Api-Key': window.configuration.contactkey
 	      },
 	      data: f
 	    }).then(function(response) {
@@ -128,23 +128,6 @@
 	  };
 	  $scope.view.openLeftMenu = function() {
 	    $mdSidenav('left').toggle();
-	  };
-	  $scope.view.doDownload = function() {
-	    $scope.view.updateClicked = true;
-	    var a = document.createElement('a');
-	    if ($scope.view.os === 'ios') {
-	      if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-	        a.href = 'itms-services://?action=download-manifest&url=http://static.urbantz.com.s3-website-eu-west-1.amazonaws.com/app/eu-west-1.plist';
-	      } else {
-	        a.href = 'http://static.urbantz.com.s3-website-eu-west-1.amazonaws.com/app/urbantz-eu-west-1.ipa';
-	      }
-	      a.download = true;
-	      console.log(a);
-	    } else if ($scope.view.os === 'android') {
-	      a.href = 'https://play.google.com/store/apps/details?id=com.urbantz';
-	      a.target = '_blank';
-	    }
-	    a.click();
 	  };
 	}]);
 	app.config(["$httpProvider", function($httpProvider) {
@@ -179,9 +162,9 @@
 	});
 
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global, process) {(function(global) {
 	  'use strict';
@@ -2589,9 +2572,9 @@
 
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(2)))
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	__webpack_require__(1);
@@ -2733,6 +2716,11 @@
 	process.removeListener = noop;
 	process.removeAllListeners = noop;
 	process.emit = noop;
+	process.prependListener = noop;
+	process.prependOnceListener = noop;
+	process.listeners = function(name) {
+	  return [];
+	};
 	process.binding = function(name) {
 	  throw new Error('process.binding is not supported');
 	};
@@ -2747,9 +2735,9 @@
 	};
 
 
-/***/ },
+/***/ }),
 /* 3 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	__webpack_require__(1);
@@ -2762,9 +2750,9 @@
 	});
 
 
-/***/ },
+/***/ }),
 /* 4 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	__webpack_require__(1);
@@ -2898,9 +2886,9 @@
 	});
 
 
-/***/ },
+/***/ }),
 /* 5 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	__webpack_require__(1);
@@ -2982,9 +2970,9 @@
 	}]);
 
 
-/***/ },
+/***/ }),
 /* 6 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	__webpack_require__(1);
@@ -3084,9 +3072,9 @@
 	}]);
 
 
-/***/ },
+/***/ }),
 /* 7 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	__webpack_require__(1);
@@ -3127,9 +3115,9 @@
 	});
 
 
-/***/ },
+/***/ }),
 /* 8 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	__webpack_require__(1);
@@ -3159,9 +3147,9 @@
 	});
 
 
-/***/ },
+/***/ }),
 /* 9 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	__webpack_require__(1);
@@ -3204,9 +3192,9 @@
 	});
 
 
-/***/ },
+/***/ }),
 /* 10 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	__webpack_require__(1);
@@ -3271,9 +3259,9 @@
 	});
 
 
-/***/ },
+/***/ }),
 /* 11 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	__webpack_require__(1);
@@ -3367,9 +3355,9 @@
 	}]);
 
 
-/***/ },
+/***/ }),
 /* 12 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	__webpack_require__(1);
@@ -3389,5 +3377,5 @@
 	_initTalkTo();
 
 
-/***/ }
+/***/ })
 /******/ ]);

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+    {% include head.html %}
+    <body ng-app="urbantz" ng-cloak ng-controller="HomeController" class="blog {{ page.body_classes }}">
+        <div class="banner">{% include nav.html %}</div>
+        
+		<article class="content-wrapper jobs-content-list grid pure-g" flex-sm="100" flex-xs="100">
+			<div>
+				{% for p in site.pages %}
+                    {% if p.ref == 'jobs' and p.lang == page.lang and p.url != page.url %}
+                    <md-card class="animated slideInUp" ng-click="view.go('{{ p.url }}')">
+                        <md-card-title>
+                            <md-card-title-text>
+                                <span class="md-headline">{{ p.title }}</span>
+                            </md-card-title-text>
+                        </md-card-title>
+
+                        <md-card-content>
+                            <div layout="row" layout-align="start start">{{ p.content | markdownify | strip_html | truncate: 400 }}</div>
+                            <br>
+                            <br>
+                            <md-chips>
+                                {% for tag in p.tags %}
+                                    <md-chip>{{ tag }}</md-chip>
+                                {% endfor %}
+                                </md-list>
+                            </md-chips>
+                        </md-card-content>
+                    </md-card>
+                    {% endif %}
+                {% endfor %}
+			</div>
+		</article>
+
+        {% include footer.html %}
+    </body>
+</html>

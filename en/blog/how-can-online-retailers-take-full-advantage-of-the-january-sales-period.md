@@ -3,7 +3,7 @@ title: 'How can online retailers take full advantage of the January SALES period
 lang: en
 ref: blog
 author: Mélanie Applincourt
-date: 2017-04-13 14:00:00 +/-0
+date: 2017-01-01 14:00:00 +/-0
 header_image: true
 header_image_file: sales.png
 header_image_width: 300

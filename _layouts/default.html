@@ -8,7 +8,12 @@
             {% if page.title and page.hidetitle != true %}
             <h1 class="animated slideInUp">{{ page.title }}</h1>
             {% endif %}
-            
+            <md-chips>
+                {% for tag in page.tags %}
+                    <md-chip>{{ tag }}</md-chip>
+                {% endfor %}
+                </md-list>
+            </md-chips>
             <div class="animated fadeIn">
                 {% if page.ref == 'blog' and page.header_image_file %}
                 <img src="{{page.header_image_file}}">

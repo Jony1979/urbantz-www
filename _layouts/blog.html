@@ -7,7 +7,7 @@
         <article>
             {% assign sorted = (site.pages | sort: 'date') | reverse %}
             {% for p in sorted %}
-                {% if p.lang == page.lang and p.ref == 'blog' %}
+                {% if p.lang == page.lang and p.ref == 'blog' and p.url != page.url %}
                 <md-card class="animated slideInUp" ng-click="view.go('{{ p.url }}')">
                     <md-card-title>
                         <md-card-title-text>

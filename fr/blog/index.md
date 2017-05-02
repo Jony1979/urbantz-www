@@ -2,7 +2,7 @@
 title: Blog
 layout: blog
 ref: blog
-lang: en
+lang: fr
 nav: true
 footer: true
 ---

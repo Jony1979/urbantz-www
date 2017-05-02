@@ -1,23 +1,31 @@
-body.dark article {
-    background: #223641;
-    display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
-    padding: 0px !important;
-    margin-top: 0px !important;
+body.dark {
+    min-height: 100vh;
+    background: url(/img/grid-light.png) $darker right bottom no-repeat;
 
-    > div {
-        background-image: url('../img/grid.png');
-        background-color: #fff;
-        padding: 20px;
+    article {
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px !important;
+        margin-top: 0px !important;
+
+        > div {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        form {
+            md-card {
+                background: transparent;
+                box-shadow: none;
+            }
+        }
     }
 
-    form {
-        md-card {
-            background: transparent;
-            box-shadow: none;
-        }
+    footer {
+        background: transparent;
     }
 }
 
@@ -38,9 +46,8 @@ article {
     background: #fff;
     display: block;
 	width: 100%;
-    padding: 0px;
     box-sizing: border-box;
-    padding: 30px;
+    padding: 30px 10%;
     max-width: 1200px;
 	margin: auto;
 
@@ -55,17 +62,10 @@ article {
     }
 
     @media screen and (max-width: 600px) {
-        padding: 10px;
-    }
-
-    > *:not(.list-children) {
-        max-width: 80%;
-        margin: 50px auto;
-        display: block;
-
-        @media screen and (max-width: 600px) {
-            max-width: 100%;
-        }
+        padding: 40px;
+        background-position: -25px 0px, bottom right -20px;
+        background-repeat: no-repeat;
+        background-size: 150px 150px;
     }
 
     img.small {
@@ -125,7 +125,7 @@ article {
         }
     }
   
-    p {
+    p, li {
         font-family: Roboto;
         font-weight: 300;
         line-height: 2;
@@ -178,8 +178,11 @@ article {
 }
 
 body.blog {
+    min-height: 100vh;
+    background: url(/img/grid-light.png) $darker right bottom no-repeat;
+
     article {
-        background: $darker;
+        background: transparent;
 
         md-card {
             cursor: pointer;
@@ -195,5 +198,9 @@ body.blog {
                 }
             }
         }
+    }
+
+    footer {
+        background: transparent;
     }
 }

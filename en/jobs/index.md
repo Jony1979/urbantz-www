@@ -1,8 +1,8 @@
 ---
-title: Blog
-layout: blog
-ref: blog
+title: Jobs
+layout: jobs
 lang: en
+ref: jobs
 nav: true
 footer: true
 ---

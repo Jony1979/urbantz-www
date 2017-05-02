@@ -13,14 +13,27 @@ defaults:
     path: ''
   values:
     layout: default
-phone: "+33176310369"
+phone: '+33176310369'
 email: info@urbantz.com
-address: 120 Avenue Louise, 1000 Brussels, Belgium
+address: 120 Avenue Louise, 1050 Brussels, Belgium
 copyright: Copyright 2014-2017 URBANTZ S.A., All Rights Reserved
-description: 'The best software for your delivery operations
-
-'
+description: 'The best software for your delivery operations'
 baseurl: ''
+configuration:
+- key: twitter
+  value: urbantz-ops
+- key: demourl
+  value: https://nexuxw7zte.execute-api.eu-west-1.amazonaws.com/production
+- key: demokey
+  value: Jhpps7TDHj3O9ZQMz38Gx2cGQv06L51Z56fuOT1f
+- key: supporturl
+  value: https://hosvq66q80.execute-api.eu-west-1.amazonaws.com/production
+- key: supportkey
+  value: Jhpps7TDHj3O9ZQMz38Gx2cGQv06L51Z56fuOT1f
+- key: contacturl
+  value: https://a4vvb2px10.execute-api.eu-west-1.amazonaws.com/production
+- key: contactkey
+  value: Jhpps7TDHj3O9ZQMz38Gx2cGQv06L51Z56fuOT1f
 nav:
   '1': features
   '2': contact
@@ -29,6 +42,8 @@ nav:
   '5': api
   '6': status
   '7': company
+  '8': jobs
+  '9': blog
 languages:
 - key: en
   value: English
@@ -36,8 +51,7 @@ languages:
   value: Français
 url: https://www.urbantz.com
 metadata:
-  description: URBANTZ is a logistics cloud solution for the first and last mile delivery
-    business
+  description: URBANTZ is a logistics cloud solution for the first and last mile delivery business
   og:image: https://urbantz.com/img/og-urbantz.png
   keywords: Last Mile,First Mile, Logistics, SAAS, Platform, Urban, Solution, App
   theme-color: "#223641"
