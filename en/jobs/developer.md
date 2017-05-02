@@ -3,12 +3,12 @@ title: Developer
 ref: jobs
 lang: en
 metadata:
-    description: 'We''re hiring: Javascript Ninja'
+  description: 'We''re hiring: Javascript Ninja'
 tags:
-    - job
-    - brussels
-    - developer
-    - hacker
+- job
+- brussels
+- developer
+- hacker
 ---
 
 We are looking for a passionate developer to join a young technology startup in the logistics sector. The successful candidate will have the chance to join an exciting, innovative and fast growing company. 

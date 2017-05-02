@@ -13,11 +13,11 @@ defaults:
     path: ''
   values:
     layout: default
-phone: '+33176310369'
+phone: "+33176310369"
 email: info@urbantz.com
 address: 120 Avenue Louise, 1050 Brussels, Belgium
 copyright: Copyright 2014-2017 URBANTZ S.A., All Rights Reserved
-description: 'The best software for your delivery operations'
+description: The best software for your delivery operations
 baseurl: ''
 configuration:
 - key: twitter
@@ -51,7 +51,8 @@ languages:
   value: Français
 url: https://www.urbantz.com
 metadata:
-  description: URBANTZ is a logistics cloud solution for the first and last mile delivery business
+  description: URBANTZ is a logistics cloud solution for the first and last mile delivery
+    business
   og:image: https://urbantz.com/img/og-urbantz.png
   keywords: Last Mile,First Mile, Logistics, SAAS, Platform, Urban, Solution, App
   theme-color: "#223641"

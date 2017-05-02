@@ -1,16 +1,17 @@
 ---
-title: 'Sales Manager'
+title: Sales Manager
 ref: jobs
 lang: en
 metadata:
-    description: 'Job Vacancy - Sales Manager'
-    Keywords: 'Job,Vacancy,Sales,Manager,Brussels,Logistics'
+  description: Job Vacancy - Sales Manager
+  Keywords: Job,Vacancy,Sales,Manager,Brussels,Logistics
 tags:
-    - job
-    - brussels
-    - sales
-    - emea
+- job
+- brussels
+- sales
+- emea
 ---
+
 ## Brussels, Belgium - Sales
 
 We are looking for a passionate individual to lead the expansion of our business in Europe (with a special focus on France, Belgium, the UK and Germany). The successful candidate will have the chance to join an exciting, innovative and fast growing company.
