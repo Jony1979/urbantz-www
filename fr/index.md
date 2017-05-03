@@ -1,5 +1,10 @@
 ---
 title: Accueil
+<<<<<<< HEAD
+=======
+position: 15
+layout: home
+>>>>>>> 9cb59765c640826b7015793c55dad050e939e1da
 lang: fr
 layout: home
 demo: true

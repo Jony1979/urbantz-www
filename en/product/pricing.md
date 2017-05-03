@@ -1,5 +1,6 @@
 ---
 title: Transparent pricing
+position: 21
 lang: en
 parent: features
 index: 5

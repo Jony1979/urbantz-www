@@ -1,15 +1,16 @@
 ---
-title: 'Internship in Sales'
+title: Internship in Sales
+position: 43
 ref: jobs
 lang: en
 metadata:
-    description: 'Job Vacancy - Internship in Sales'
-    Keywords: 'Job,Vacancy,Internship,Brussels,Logistics'
+  description: Job Vacancy - Internship in Sales
+  Keywords: Job,Vacancy,Internship,Brussels,Logistics
 tags:
-    - job
-    - brussels
-    - sales
-    - internship
+- job
+- brussels
+- sales
+- internship
 ---
 
 ## Brussels, Belgium - Sales

@@ -1,5 +1,6 @@
 ---
 title: Etat du service
+position: 16
 lang: fr
 ref: status
 body_classes: dark

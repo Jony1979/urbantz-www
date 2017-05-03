@@ -1,6 +1,7 @@
 ---
 title: 2 Steps for Your Delivery Strategy During the Holiday Season
 date: 2016-12-01 14:00:00 Z
+position: 30
 lang: en
 author: Mélanie Applincourt
 header_image: true

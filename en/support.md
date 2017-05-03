@@ -1,5 +1,6 @@
 ---
 title: Support
+position: 9
 lang: en
 ref: support
 body_classes: dark

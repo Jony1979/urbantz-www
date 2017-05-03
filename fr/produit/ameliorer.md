@@ -1,5 +1,10 @@
 ---
+<<<<<<< HEAD
 title: S'améliorer
+=======
+title: Amélioration significative des performances
+position: 25
+>>>>>>> 9cb59765c640826b7015793c55dad050e939e1da
 lang: fr
 parent: features
 ---

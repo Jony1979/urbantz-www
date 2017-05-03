@@ -1,5 +1,6 @@
 ---
 title: Product
+position: 20
 hidetitle: true
 ref: features
 lang: en

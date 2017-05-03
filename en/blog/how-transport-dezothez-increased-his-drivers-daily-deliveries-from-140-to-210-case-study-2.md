@@ -1,17 +1,18 @@
 ---
-title: 'How TRANSPORT DEZOTHEZ increased his drivers’ daily deliveries from 140 to 210'
-date: 2017-03-01 14:00:00 Z
-position: 31
+title: 'How TRANSPORT DEZOTHEZ increased his drivers’ daily deliveries from 140 to
+  210 [Case Study #2]'
+date: 2017-03-02 14:00:00 Z
+position: 35
 lang: en
 ref: blog
 author: Mélanie Applincourt
 header_image: true
-header_image_file: /img/dezothez.png
+header_image_file: dezothez.png
 header_image_width: 300
 header_image_height: 300
 ---
 
-[As we mentioned in our last blogpost](../2-steps-for-your-delivery-strategy-during-the-holiday-season), the festive period, especially the peak at Christmas, can be very challenging for delivery companies. Santa Claus does not exist, nor do his reindeers, thus they are overwhelmed by thousands of orders, making the timely delivery of packages a real struggle.
+[As we mentioned in our last blogpost](2-steps-for-your-delivery-strategy-during-the-holiday-season.html), the festive period, especially the peak at Christmas, can be very challenging for delivery companies. Santa Claus does not exist, nor do his reindeers, thus they are overwhelmed by thousands of orders, making the timely delivery of packages a real struggle.
 
 This year is no exception and Jerome, the founder of TRANSPORT DEZOTHEZ, a delivery company based in France, tells us about his recurring toils: 
 

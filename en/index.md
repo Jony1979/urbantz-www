@@ -1,5 +1,6 @@
 ---
 title: Home
+position: 6
 layout: home
 lang: en
 demo: true

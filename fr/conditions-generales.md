@@ -1,5 +1,6 @@
 ---
 title: Conditions générales
+position: 14
 lang: fr
 footer: true
 ---

@@ -1,5 +1,10 @@
 ---
+<<<<<<< HEAD:en/product/promote.md
 title: Promote
+=======
+title: Fully white label
+position: 24
+>>>>>>> 9cb59765c640826b7015793c55dad050e939e1da:en/features/white-label.md
 lang: en
 parent: features
 index: 4

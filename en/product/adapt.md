@@ -1,5 +1,10 @@
 ---
+<<<<<<< HEAD:en/product/adapt.md
 title: Adapt
+=======
+title: Customizable process
+position: 18
+>>>>>>> 9cb59765c640826b7015793c55dad050e939e1da:en/features/customizable-process.md
 lang: en
 parent: features
 index: 3

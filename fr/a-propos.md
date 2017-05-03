@@ -1,5 +1,6 @@
 ---
 title: A propos
+position: 11
 lang: fr
 ref: company
 menu: true

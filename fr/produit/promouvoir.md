@@ -1,5 +1,10 @@
 ---
+<<<<<<< HEAD
 title: Se promouvoir
+=======
+title: Marque blanche à 100%
+position: 28
+>>>>>>> 9cb59765c640826b7015793c55dad050e939e1da
 lang: fr
 parent: features
 ---

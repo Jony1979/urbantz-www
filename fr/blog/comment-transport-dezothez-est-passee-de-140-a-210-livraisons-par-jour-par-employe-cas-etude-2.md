@@ -1,17 +1,13 @@
 ---
-<<<<<<< HEAD:fr/blog/comment-transport-dezothez-est-passee-de-140-a-210-livraisons-par-jour-par-employe.md
-title: 'Comment TRANSPORT DEZOTHEZ est passée de 140 à 210 livraisons par jour par employé'
-=======
 title: 'Comment TRANSPORT DEZOTHEZ est passée de 140 à 210 livraisons par jour par
-  employé  [Etude de cas #1]'
+  employé  [Etude de cas #2]'
 date: 2017-03-02 14:00:00 Z
-position: 36
->>>>>>> 9cb59765c640826b7015793c55dad050e939e1da:fr/blog/comment-transport-dezothez-est-passee-de-140-a-210-livraisons-par-jour-par-employe-cas-etude-1.md
+position: 37
 lang: fr
 ref: blog
 author: Mélanie Applincourt
 header_image: true
-header_image_file: /img/dezothez.png
+header_image_file: dezothez.png
 header_image_width: 300
 header_image_height: 300
 ---

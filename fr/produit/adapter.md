@@ -1,5 +1,10 @@
 ---
+<<<<<<< HEAD
 title: S'adapter
+=======
+title: Processus personnalisable
+position: 23
+>>>>>>> 9cb59765c640826b7015793c55dad050e939e1da
 lang: fr
 parent: features
 ---

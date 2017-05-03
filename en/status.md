@@ -1,5 +1,6 @@
 ---
 title: Status
+position: 8
 lang: en
 ref: status
 body_classes: dark

@@ -1,5 +1,10 @@
 ---
+<<<<<<< HEAD:en/product/grow.md
 title: Grow
+=======
+title: Grow the business
+position: 19
+>>>>>>> 9cb59765c640826b7015793c55dad050e939e1da:en/features/grow-the-business.md
 lang: en
 parent: features
 index: 1
