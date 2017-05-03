@@ -1,14 +1,6 @@
 ---
-<<<<<<< HEAD:en/product/grow.md
-title: Grow
-=======
-title: Grow the business
-position: 19
->>>>>>> 9cb59765c640826b7015793c55dad050e939e1da:en/features/grow-the-business.md
-lang: en
-parent: features
-index: 1
 ---
+
 ## Grow the business
 There comes a moment when you cannot grow anymore without a solid IT solution to manage your operations. Issue handling, personnel turnover, client management just get out of hand. By using URBANTZ, you'll be able to focus on what counts and gain a deeper insight into your operations.
 

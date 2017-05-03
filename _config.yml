@@ -1,7 +1,6 @@
 ---
 title: URBANTZ
 timezone: UTC
-permalink: /:lang/:categories/:title/
 collections:
   posts:
     title: Posts
@@ -15,26 +14,27 @@ defaults:
   values:
     layout: default
 - scope:
-    path: '/en/'
-    type: 'pages'
+    path: "/en/"
+    type: pages
   values:
     lang: en
 - scope:
-    path: '/fr/**'
-    type: 'pages'
+    path: "/fr/**"
+    type: pages
   values:
     lang: fr
 - scope:
-    path: '/en/blog/'
-    type: 'pages'
+    path: "/en/blog/"
+    type: pages
   values:
     ref: blog
 - scope:
-    path: '/fr/blog/'
-    type: 'pages'
+    path: "/fr/blog/"
+    type: pages
   values:
     ref: blog
-phone: '+33176310369'
+permalink: "/:lang/:categories/:title/"
+phone: "+33176310369"
 email: info@urbantz.com
 address: 120 Avenue Louise, 1050 Brussels, Belgium
 copyright: Copyright 2014-2017 URBANTZ S.A., All Rights Reserved

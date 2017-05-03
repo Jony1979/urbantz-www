@@ -1,14 +1,6 @@
 ---
-<<<<<<< HEAD:en/product/promote.md
-title: Promote
-=======
-title: Fully white label
-position: 24
->>>>>>> 9cb59765c640826b7015793c55dad050e939e1da:en/features/white-label.md
-lang: en
-parent: features
-index: 4
 ---
+
 ## Fully white label
 This is your platform, and we make it our priority to make it look that way. Rebrand it to boast your identity or, on request of your clients, make it theirs. We can rebrand all interfaces, in the browser with a custom URL (using a proxy) or prepare mobile apps with a custom Logo, Splash and Theme.
 

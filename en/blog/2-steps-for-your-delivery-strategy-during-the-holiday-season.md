@@ -5,7 +5,7 @@ position: 30
 lang: en
 author: Mélanie Applincourt
 header_image: true
-header_image_file: /img/blog-image-1.png
+header_image_file: "/img/blog-image-1.png"
 header_image_width: 300
 header_image_height: 300
 ---
