@@ -1,19 +1,4 @@
 ---
-<<<<<<< HEAD:fr/blog/comment-transport-dezothez-est-passee-de-140-a-210-livraisons-par-jour-par-employe.md
-title: 'Comment TRANSPORT DEZOTHEZ est passée de 140 à 210 livraisons par jour par employé'
-=======
-title: 'Comment TRANSPORT DEZOTHEZ est passée de 140 à 210 livraisons par jour par
-  employé  [Etude de cas #1]'
-date: 2017-03-02 14:00:00 Z
-position: 36
->>>>>>> 9cb59765c640826b7015793c55dad050e939e1da:fr/blog/comment-transport-dezothez-est-passee-de-140-a-210-livraisons-par-jour-par-employe-cas-etude-1.md
-lang: fr
-ref: blog
-author: Mélanie Applincourt
-header_image: true
-header_image_file: /img/dezothez.png
-header_image_width: 300
-header_image_height: 300
 ---
 
 [Comme indiqué dans notre dernier article sur le blog](../2-steps-for-your-delivery-strategy-during-the-holiday-season), la période des fêtes peut devenir un véritable challenge pour les entreprises de livraison, surtout à Noël. 

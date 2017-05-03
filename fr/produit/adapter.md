@@ -1,13 +1,6 @@
 ---
-<<<<<<< HEAD
-title: S'adapter
-=======
-title: Processus personnalisable
-position: 23
->>>>>>> 9cb59765c640826b7015793c55dad050e939e1da
-lang: fr
-parent: features
 ---
+
 ## Processus personnalisable
 Bien que le processus de base soit bien défini, URBANTZ autorise un personnalisation à plusieurs niveaux, et s'adapte parfaitement aux différentes modifications du modèle de livraison standard. A chaque flux de livraison créé, le processus est adaptable dans URBANTZ. La vision globale du sytème de livraison de bout en bout montre des exemples de personnalisations possibles avec URBANTZ.
 Grâce à Urbantz une tournée peut contenir des colis provenant de plusieurs flux différents. Dans ce cas, URBANTZ gèrera automatiquement les différents flux et le livreur n'aura plus qu'à suivre les instructions.

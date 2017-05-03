@@ -6,7 +6,6 @@ ref: features
 lang: en
 nav: true
 navbar: true
-hidetitle: true
 ---
 
 <h1 align="center">We provide a state of the art web management portal and an easy-to-use mobile application</h1>

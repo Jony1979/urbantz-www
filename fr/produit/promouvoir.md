@@ -1,13 +1,6 @@
 ---
-<<<<<<< HEAD
-title: Se promouvoir
-=======
-title: Marque blanche à 100%
-position: 28
->>>>>>> 9cb59765c640826b7015793c55dad050e939e1da
-lang: fr
-parent: features
 ---
+
 ## Marque blanche à 100%
 Ceci est votre plateforme, et nous faisons notre priorité pour le faire paraître That Way. Rebrand à vanter votre identité ou, sur demande, ou vos clients, faire le leur. Nous pouvons rebaptiser toutes les interfaces du navigateur avec une URL personnalisée (en utilisant un proxy) ou de préparer des applications mobiles avec un logo personnalisé, Splash et le thème.
 
