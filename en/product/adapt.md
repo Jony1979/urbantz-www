@@ -1,9 +1,10 @@
 ---
-title: Customizable process
+title: Adapt
 lang: en
 parent: features
+index: 3
 ---
-
+## Fully customizable process
 Though the core process is well defined, URBANTZ allows for a host of customisations at many levels, and adapts to many variations of the standard delivery model. When you create a delivery flow you can adapt the process in URBANTZ. The high level end-to-end last mile process shows examples of customisations possible with URBANTZ.
 With URBANTZ you can mix in the same round parcels that have different delivery flows. In this case URBANTZ will automatically manage the flows and the driver just has to follow instructions.
 

@@ -1,8 +1,9 @@
 ---
-title: Amélioration significative des performances
+title: S'améliorer
 lang: fr
+parent: features
 ---
-
+## Amélioration significative des performances
 L'optimisation d'un réseau d'acheminement comprenant des collectes, des livraisons et des créneaux horaires à respecter n'est pas une promenade de santé, d'autant moins lorsqu'il s'agit de traiter des quantité importantes de colis. Une des façon de résoudre le problème, est d'utiliser les Algorithmes de colonies de fourmis – une technique métaheuristique inspirée par les fourmis...
 
 Voilà d'où provient l'appellation URBANTZ: des fourmis dans un environnement urbain (ANTS = fourmis et URBAN = urbain en Anglais). C'est dans notre ADN.

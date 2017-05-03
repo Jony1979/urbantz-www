@@ -5,7 +5,7 @@ ref: blog
 author: Mélanie Applincourt
 date: 2017-01-01 14:00:00 +/-0
 header_image: true
-header_image_file: sales.png
+header_image_file: /img/sales.png
 header_image_width: 300
 header_image_height: 300
 ---

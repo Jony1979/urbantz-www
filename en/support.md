@@ -4,6 +4,7 @@ lang: en
 ref: support
 body_classes: dark
 nav: true
+hidetitle: true
 ---
 
 <p>Fill in the form below and we will contact you as soon as possible. Alternatively, you can send us an email at <a href="mailto:support@urbantz.com">support@urbantz.com</a></p>

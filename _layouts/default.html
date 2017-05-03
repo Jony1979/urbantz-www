@@ -14,6 +14,19 @@
                 {% endfor %}
                 </md-list>
             </md-chips>
+
+            {% if page.navbar %}
+            <md-nav-bar md-selected-nav-item="currentNavItem" ng-init="currentNavItem='current'" layout="row" layout-align="center center">
+                <md-nav-item md-nav-click="gogo" name="current">{{page.title}}</md-nav-item>
+            {% assign sorted = (site.pages | sort: 'index') %}
+            {% for p in sorted %}
+                {% if p.parent and p.lang == page.lang and p.parent == page.ref %}
+                <md-nav-item md-nav-href="{{p.url}}">{{p.title}}</md-nav-item>
+                {% endif %}
+            {% endfor %}
+            </md-nav-bar>
+            {% endif %}
+            
             <div class="animated fadeIn">
                 {% if page.ref == 'blog' and page.header_image_file %}
                 <img src="{{page.header_image_file}}">

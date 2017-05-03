@@ -2,7 +2,7 @@
 title: A propos
 lang: fr
 ref: company
-nav: true
+menu: true
 footer: true
 ---
 

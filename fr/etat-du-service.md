@@ -5,6 +5,7 @@ ref: status
 body_classes: dark
 menu: true
 footer: true
+hidetitle: true
 ---
 
 <div ng-controller="StatusController">

@@ -1,9 +1,10 @@
 ---
 title: Téléchargement
-body_classes: dark
 lang: fr
+body_classes: dark
 ref: download
-nav: true
+menu: true
+hidetitle: true
 ---
 
 <p align="center">

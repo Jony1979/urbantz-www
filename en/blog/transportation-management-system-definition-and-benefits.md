@@ -5,7 +5,7 @@ lang: en
 ref: blog
 author: Mélanie Applincourt
 header_image: true
-header_image_file: tms.png
+header_image_file: /img/tms.png
 header_image_width: 300
 header_image_height: 300
 ---

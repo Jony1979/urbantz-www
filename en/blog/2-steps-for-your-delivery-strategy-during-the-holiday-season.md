@@ -2,10 +2,9 @@
 title: 2 Steps for Your Delivery Strategy During the Holiday Season
 date: 2016-12-01 14:00:00 Z
 lang: en
-ref: blog
 author: Mélanie Applincourt
 header_image: true
-header_image_file: blog-image-1.png
+header_image_file: /img/blog-image-1.png
 header_image_width: 300
 header_image_height: 300
 ---
@@ -37,7 +36,7 @@ Do not forget to prepare your shipping team. First, let your employees know that
 •	Train your staff to provide strategic sequencing as well as to make use of vertical storage.
 
 <div align="center" markdown="1">
-![](blog-image-2.png)
+![](/img/blog-image-2.png)
 </div>
 
 ## 2. Optimise your logistics during the holiday season

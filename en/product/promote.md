@@ -1,9 +1,10 @@
 ---
-title: Fully white label
+title: Promote
 lang: en
 parent: features
+index: 4
 ---
-
+## Fully white label
 This is your platform, and we make it our priority to make it look that way. Rebrand it to boast your identity or, on request of your clients, make it theirs. We can rebrand all interfaces, in the browser with a custom URL (using a proxy) or prepare mobile apps with a custom Logo, Splash and Theme.
 
 The administrator is able to fully customize the branding of our Web application. Within the platform settings you can choose a theme colour, insert your logo, icon and a background picture for the login page. 

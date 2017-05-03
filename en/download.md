@@ -4,6 +4,7 @@ lang: en
 ref: download
 body_classes: dark
 menu: true
+hidetitle: true
 ---
 
 <p align="center">

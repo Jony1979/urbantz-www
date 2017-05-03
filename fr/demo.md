@@ -1,7 +1,7 @@
 ---
 title: Demander une Démo
-body_classes: dark
 lang: fr
+body_classes: dark
 ref: demo
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Accueil
-layout: home
 lang: fr
+layout: home
 demo: true
 body_classes: home
 ---

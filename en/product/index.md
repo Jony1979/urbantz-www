@@ -4,19 +4,12 @@ hidetitle: true
 ref: features
 lang: en
 nav: true
+navbar: true
+hidetitle: true
 ---
 
-<md-nav-bar md-selected-nav-item="currentNavItem" ng-init="currentNavItem='product'" layout="row" layout-align="center center">
-    <md-nav-item md-nav-click="gogo" name="product">Product</md-nav-item>
-    <md-nav-item md-nav-href="grow-the-business.html">Grow</md-nav-item>
-    <md-nav-item md-nav-href="customizable-process.html">Adapt</md-nav-item>
-    <md-nav-item md-nav-href="significant-performance-gains.html">Improve</md-nav-item>
-    <md-nav-item md-nav-href="white-label.html">Promote</md-nav-item>
-    <md-nav-item md-nav-href="pricing.html">Simplify</md-nav-item>
-</md-nav-bar>
-
-<h1 align="center">We provide a state of the art web management portal and mobile application</h1>
-
+<h1 align="center">We provide a state of the art web management portal and an easy-to-use mobile application</h1>
+<img src="/img/product.png">
 <md-tabs md-dynamic-height md-center-tabs md-border-bottom>
     <md-tab label="Web">
         <div class="app-features web">

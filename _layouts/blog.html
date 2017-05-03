@@ -5,7 +5,10 @@
     <body ng-app="urbantz" ng-cloak ng-controller="HomeController" class="blog {{ page.body_classes }}">
         <div class="banner">{% include nav.html %}</div>
         <article>
-            {% assign sorted = (site.pages | sort: 'date') | reverse %}
+            
+            {% assign sorted = (site.pages | reverse) %}
+
+
             {% for p in sorted %}
                 {% if p.lang == page.lang and p.ref == 'blog' and p.url != page.url %}
                 <md-card class="animated slideInUp" ng-click="view.go('{{ p.url }}')">

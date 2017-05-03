@@ -2,7 +2,7 @@
 title: About us
 ref: company
 lang: en
-nav: true
+menu: true
 footer: true
 ---
 

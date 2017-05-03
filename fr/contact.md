@@ -4,6 +4,7 @@ lang: fr
 body_classes: dark
 ref: contact
 nav: true
+hidetitle: true
 ---
 
 <p>Si vous souhaitez nous contacter, remplissez le formulaire ci-dessous, ou envoyez-nous un email à  <a href="mailto:info@urbantz.com">info@urbantz.com</a></p>

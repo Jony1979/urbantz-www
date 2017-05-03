@@ -1,8 +1,9 @@
 ---
-title: Marque blanche à 100%
+title: Se promouvoir
 lang: fr
+parent: features
 ---
-
+## Marque blanche à 100%
 Ceci est votre plateforme, et nous faisons notre priorité pour le faire paraître That Way. Rebrand à vanter votre identité ou, sur demande, ou vos clients, faire le leur. Nous pouvons rebaptiser toutes les interfaces du navigateur avec une URL personnalisée (en utilisant un proxy) ou de préparer des applications mobiles avec un logo personnalisé, Splash et le thème.
 
 L'administrateur peut entièrement modifier l'image de marque de notre application Web. Dans les paramètres de la plateforme, vous pouvez choisir une couleur de thème, insérez votre logo, choisir un icône et une image d'arrière-plan pour la page de connexion.

@@ -3,20 +3,12 @@ title: Produit
 lang: fr
 ref: features
 nav: true
+navbar: true
+hidetitle: true
 ---
 
-<div layout="row" layout-align="center center">
-    <md-button href="grandir.html">Grandir</md-button>
-    <md-button href="adapter.html">S'adapter</md-button>
-    <md-button href="ameliorer">S'améliorer</md-button>
-    <md-button href="promouvoir.html">Se promouvoir</md-button>
-    <md-button href="tarification.html">Prix sans surprise</md-button>
-</div>
-
-<md-divider></md-divider>
-
-<h2 align="center">Nous fournissons un portail web dernier cris ainsi qu'une application mobile</h2>
-
+<h2 align="center">Nous fournissons un portail web dernier cris ainsi qu'une application mobile efficace</h2>
+<img src="/img/product.png">
 <md-tabs md-dynamic-height md-center-tabs md-border-bottom>
     <md-tab label="Web">
         <div class="app-features">
