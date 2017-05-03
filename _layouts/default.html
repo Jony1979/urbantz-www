@@ -8,11 +8,11 @@
             {% if page.title and page.hidetitle != true %}
             <h1 class="animated slideInUp">{{ page.title }}</h1>
             {% endif %}
-            <md-chips>
+
+            <md-chips layout="row" layout-align="center center">
                 {% for tag in page.tags %}
                     <md-chip>{{ tag }}</md-chip>
                 {% endfor %}
-                </md-list>
             </md-chips>
 
             {% if page.navbar %}

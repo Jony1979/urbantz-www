@@ -12,18 +12,30 @@ tags:
 - hacker
 ---
 
-We are looking for a passionate developer to join a young technology startup in the logistics sector. The successful candidate will have the chance to join an exciting, innovative and fast growing company. 
+We are looking for a passionate developer to join a young technology startup in the logistics sector. The successful candidate will have the chance to join an exciting, innovative and fast growing company.
 
-The demand for delivery services is growing around the world. The size of this market is huge and will continue to grow in the coming years. At the same time the delivery offers are becoming more complex and diverse. To face this increase in complexity and to reduce inner city congestion, URBANTZ provides a solution to better organise and simplify the last mile delivery business. URBANTZ believes in the performance of its network of senders and delivery platforms. We’re setting-up a global collaborative network connecting all the logistics actors so that they can easily scale-up their activities.
+At URBANTZ we believe in collaborative intelligence for sustainable logistics.
+We are a start-up developing a cloud-based software that makes logistics easy and efficient. We enable logistics and delivery companies to seamlessly optimize their activities and scale up their business. 
+
+### Together We Deliver
+Our core values are innovation, transparency, collaboration and sustainability.
+We propose a positive work environment where each talent can learn, grow and contribute to the company's future.
+
 
 ## WHAT WILL YOU DO
 
 Think, code and code. Think again and then code some more. Take a coffee and refactor the whole thing. Then have a great idea and make it twice as fast. Go home and read about some new tech that could help us with this or that. Come back the next day and tell the team about it. Try things out, see if it sticks, suggest changes. Help us build the best solution out there.
 
+Your mission will be to:
+-	Participate to the definition of the new features and develop them
+-	Manage legacies and refactor the solution when needed
+-	Participate to the team scrum meetings (Sprint planning, Daily stand-ups, Sprint review, etc.)
+-	Ensure innovation by keeping an eye on new technologies
+
 ## REQUIREMENTS
 
 - You are a self-starter and a problem solver 
-- You know (some of) the MEAN stack (node, express, mongo, angular, angular material, ionic, cordova, ...)
+- You know (some of) the MEAN stack (node, express, mongo, angular, angular material, ionic, cordova, html, css, ...)
 - You have some GIT knowledge
 - Your have 1 or 2 years of work experience or have spent many nights coding for fun
 - You speak English (working level) - any other language is a plus
